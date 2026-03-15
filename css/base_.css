@@ -1,0 +1,327 @@
+@charset "Shift_JIS";
+
+/* 全体構造
+---------------------------------------------------- */
+body {
+margin: 0;
+padding: 0;
+background: url(../images/body-back.jpg) repeat-x;
+}
+
+#wrapper {
+width: 900px;
+height: 925px;
+background: url(../images/back.png) repeat-y;
+}	
+
+/* TOPヘッダ
+---------------------------------------------------- */
+#header_top {
+  margin-top: 0px;
+  padding-left: 0px;
+  margin-left: 50px;
+  color: #ffffff;
+  width: 800px;
+  height: 100px;
+  }
+  
+  
+/* TOPナビ
+---------------------------------------------------- */
+#top_navi {
+  margin-top: 0px;
+  padding-left: 0px;
+  margin-left: 50px;
+  color: #ffffff;
+  width: 800px;
+  height: 30px;
+  }
+
+/* TOPページflash
+---------------------------------------------------- */
+#top_flash {
+  margin-top: 0px;
+  margin-left: 50px;
+  width: 800px;
+  height: 330px;
+}
+
+#flow_flash {
+  margin-top: 0px;
+  margin-left: 50px;
+  width: 900px;
+  height: 800px;
+}
+
+#slide_flash {
+  margin-top: 0px;
+  margin-left: 50px;
+  width: 640px;
+  height: 480px;
+}
+
+/* title
+---------------------------------------------------- */
+#title {
+  margin-top: 0px;
+  margin-left: 50px;
+  color: #ffffff;
+  width: 800px;
+  height: 130px;
+}
+
+/* TOPページmain
+---------------------------------------------------- */
+#top_main {
+  clear: right;
+  position: relative;
+  top: 0px;
+  left: 50px;
+  padding-top: 0px;
+  color: #ffffff;
+  width: 800px;
+  height: 333px;
+}
+
+#top_photo  {
+float: left;
+width: 300px;
+height: 330px;
+margin-top: 0px;
+margin-left: 30px;
+}
+
+#topicnews {
+float: right;
+margin-top: 10px;
+margin-right: 30px;
+width: 410px;
+height: 250px ;
+overflow: auto
+}
+
+#topicnews_bar {
+float: right;
+width: 410px;
+height: 20px ;
+margin-top: 0px;
+margin-right: 30px;
+}
+
+/* サイトマップmain
+---------------------------------------------------- */
+#sitemap_main {
+  clear: right;
+  position: relative;
+  top: 0px;
+  left: 50px;
+  padding-top: 0px;
+  color: #ffffff;
+  width: 800px;
+  height: 572px;
+}
+
+/* TOPナビゲーション
+---------------------------------------------------- */
+#navigation_top {
+  width: 800px;
+  position: relative;
+  margin-top: 0;
+  padding: 0;
+  margin-left: 0px;
+  margin-left: 0px;
+  list-style: none;
+}
+#navigation_top li {
+  position: absolute;
+ top: 0px;
+  display: block;
+  width: 160px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  text indent: -9999px;
+}
+ul#navigation_top li#home {
+  left: 0px;
+  background: url(../images/top_btn01_off.jpg) no-repeat;
+}
+ul#navigation_top li#company {
+  left: 160px;
+  background: url(../images/top_btn02_off.jpg) no-repeat;
+}
+ul#navigation_top li#products{
+  left: 320px;
+  background: url(../images/top_btn03_off.jpg) no-repeat;
+}
+ul#navigation_top li#recruit {
+  left: 480px;
+  background: url(../images/top_btn04_off.jpg) no-repeat;
+}
+ul#navigation_top li#access {
+  left: 640px;
+  background: url(../images/top_btn05_off.jpg) no-repeat;
+}
+ul#navigation_top a {
+  display: block;
+  width: 160px;
+  height: 30px;  
+  text-decoration: none;		/* ■Firefox等で線が表示されないようにす*/
+}
+
+/* マウスオーバー時の指定
+---------------------------------------------------- */
+ul#navigation_top li#home  a:hover    {
+  left: 0px;
+  background: url(../images/top_btn01_on.jpg) no-repeat;
+}
+ul#navigation_top li#company  a:hover    {
+  left: 160px;
+  background: url(../images/top_btn02_on.jpg) no-repeat;
+}
+ul#navigation_top li#products  a:hover    {
+  left: 320px;
+  background: url(../images/top_btn03_on.jpg) no-repeat;
+}
+ul#navigation_top li#recruit  a:hover    {
+  left: 480px;
+  background: url(../images/top_btn04_on.jpg) no-repeat;
+}
+ul#navigation_top li#access  a:hover    {
+  left: 640px;
+  background: url(../images/top_btn05_on.jpg) no-repeat;
+}
+
+/* リンクなし時
+---------------------------------------------------- */
+ul#navigation_top li#home_on    {
+  left: 0px;
+  background: url(../images/top_btn01_on.jpg) no-repeat;
+}
+ul#navigation_top li#company_on    {
+  left: 160px;
+  background: url(../images/top_btn02_on.jpg) no-repeat;
+}
+ul#navigation_top li#products_on    {
+  left: 320px;
+  background: url(../images/top_btn03_on.jpg) no-repeat;
+}
+ul#navigation_top li#recruit_on    {
+  left: 480px;
+  background: url(../images/top_btn04_on.jpg) no-repeat;
+}
+ul#navigation_top li#access_on    {
+  left: 640px;
+  background: url(../images/top_btn05_on.jpg) no-repeat;
+}
+
+/* ミドルナビ
+---------------------------------------------------- */
+#middle_navi {
+  margin-top: 0px;
+  padding-left: 0px;
+  margin-left: 80px;
+  color: #002B48;
+  width: 800px;
+  height: 20px;
+  }
+  
+  /* SUBナビゲーション
+---------------------------------------------------- */
+#navigation_sub  {
+float: left;
+width: 200px;
+margin-top: 15px;
+margin-left: 30px;
+}
+
+#navigation_sub ul {
+  width: 200px;
+  margin-top: 0;
+  padding: 0;
+  margin-left: 50px;
+  list-style: none;
+}
+  #navigation_sub li {
+  width: 200px;
+  height: 41px;
+  margin: 0;
+  padding: 0;
+  text indent: -9999px;
+}
+
+#name {
+margin-top: 0px;
+margin-left: 50px;
+text-align: right;
+width: 200px;
+}
+
+/* SUBナビゲーション products
+---------------------------------------------------- */
+#p_navigation_sub  {
+float: left;
+width: 200px;
+margin-top: 15px;
+margin-left: 30px;
+}
+
+#p_navigation_sub ul {
+  width: 200px;
+  margin-top: 0;
+  padding: 0;
+  margin-left: 50px;
+  list-style: none;
+}
+  #p_navigation_sub li {
+  width: 200px;
+  height: 41px;
+  margin: 0;
+  padding: 0;
+  text indent: -9999px;
+}
+
+/* ページ本体
+---------------------------------------------------- */
+#pagebody {
+  margin: 12px  0px  0px  330px;
+  color: #ffffff;
+  width: 500px;
+  height: 500px;
+}
+
+#pagebody2 {
+  margin: 12px  0px  0px  150px;
+  color: #ffffff;
+  width: 650px;
+  height: 500px;
+}
+
+/* FOOTERナビ
+---------------------------------------------------- */
+#footer_navi {
+  margin-top: 10px;
+  margin-left: 80px;
+  color: #002B48;
+  width: 800px;
+  height: 30px;
+  }
+
+/* フッタ
+---------------------------------------------------- */
+#footer {
+  clear: right;
+  position: relative;
+  top: 0px;
+  left: 50px;
+  width: 800px;
+  height: 80px;
+}
+
+#footer_font {
+  text-align: right;
+  text-transform: none;
+  font-size: 10px;
+  color: #777777;
+  text-decoration: none;
+}
