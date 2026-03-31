@@ -166,10 +166,10 @@ ul#navigation_top a {
   display: block;
   width: 160px;
   height: 30px;  
-  text-decoration: none;		/* $B"#(BFirefox$BEy$G@~$,I=<($5$l$J$$$h$&$K$9(B*/
+  text-decoration: none;		/* $B"#(BFirefox$BEy$G@‾$,I=<($5$l$J$$$h$&$K$9(B*/
 }
 
-/* $B%^%&%9%*!<%P!<;~$N;XDj(B
+/* $B%^%&%9%*!<%P!<;‾$N;XDj(B
 ---------------------------------------------------- */
 ul#navigation_top li#home  a:hover    {
   left: 0px;
@@ -192,7 +192,7 @@ ul#navigation_top li#access  a:hover    {
   background: url(../images/top_btn05_on.jpg) no-repeat;
 }
 
-/* $B%j%s%/$J$7;~(B
+/* $B%j%s%/$J$7;‾(B
 ---------------------------------------------------- */
 ul#navigation_top li#home_on    {
   left: 0px;
@@ -281,7 +281,7 @@ margin-left: 30px;
   text indent: -9999px;
 }
 
-/* $B%Z!<%8K\BN(B
+/* $B%Z!<%8K¥BN(B
 ---------------------------------------------------- */
 #pagebody {
   margin: 12px  0px  0px  330px;
